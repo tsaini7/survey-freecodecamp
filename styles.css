@@ -1,0 +1,131 @@
+html {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-image: url(../HD-wallpaper-abstract-31-art-background-color-creativity-design-form-geometry-graphics-lines.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.conteiner {
+  width: 55%;
+  background-color: rgba(40, 40, 72, 0.9);
+  display: flex;
+  flex-direction: column;
+  margin: 3.12rem auto 0 auto;
+  color: #fff;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 1rem 1.5rem 2rem 1.5rem;
+}
+
+header {
+  color: #fff;
+}
+header h1 {
+  text-align: center;
+  margin: 3rem 0 0 0;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+}
+header p {
+  text-align: center;
+  margin-top: 0;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form .p1-dropdown {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+.form .selectdropdown {
+  font-size: 1.1rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+}
+
+.completar {
+  display: flex;
+  flex-direction: column;
+}
+.completar label {
+  margin: 2rem 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+.completar input {
+  font-size: 1.1rem;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  width: 97%;
+}
+.completar input::placeholder {
+  color: grey;
+}
+
+.inputs-radio {
+  margin-top: 0.5rem;
+}
+.inputs-radio p {
+  font-size: 1.1rem;
+}
+.inputs-radio label {
+  font-size: 1.1rem;
+  display: block;
+}
+
+.opciones {
+  display: flex;
+  flex-direction: column;
+}
+.opciones p {
+  font-size: 1.1rem;
+}
+.opciones .selectores {
+  width: 100%;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: none;
+  padding: 8px;
+}
+
+.checksbox p {
+  font-size: 1.1rem;
+}
+.checksbox label {
+  display: block;
+  font-size: 1.1rem;
+}
+
+.form-control {
+  width: 100%;
+}
+.form-control textarea {
+  width: 96.5%;
+  min-height: 120px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+}
+.form-control textarea::placeholder {
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
+}
+.form-control button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  margin-top: 2rem;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #37AF65;
+  color: white;
+  font-size: 1.1rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
